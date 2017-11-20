@@ -7,12 +7,24 @@
     <link rel="stylesheet" href="main.css" media="screen">
     <link rel="stylesheet" href="paper.css" media="print">
     <link rel="stylesheet" href="mobile.css" media="handheld">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.min.js"></script>
     <title></title>
   </head>
   <body>
     <div class="site">
       <section class="sidebar">
         <header>
+          <picture alt="Our Alternate Text">
+            <!-- Smallest size first - no @media qualifier -->
+            <source src="content-image.jpeg" />
+            <!-- Large size - send to viewports 800px wide and up -->
+            <source src="content-image-lrg.jpeg" media="(min-width: 800px)"/>
+          </picture>
+          <!-- Fallback content for non-JS or non-media-query-supporting-browsers -->
+            <noscript>
+              <img src="content-image.jpeg" alt="Our Alternate Text">
+            </noscript>
+          </picture>
         </header>
         <nav>
           <ul class="menu"></ul>
