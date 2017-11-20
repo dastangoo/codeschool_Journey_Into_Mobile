@@ -36,3 +36,61 @@ h1 a {
   padding: 20px; /* 20px/325px */
   width: 62.765957%; /* 590px/940px */
 }
+
+/* < 480px */
+@media screen and (max-width: 480px) {
+    
+}
+
+/* < 510px */
+@media screen and (max-width: 510px) {
+  
+}
+/* < 768px */
+@media screen and (max-width: 768px) {
+  /* ------- Section ----------- */
+  .box {
+    padding: 10px;
+    margin: 20px auto;
+    width: inherit;
+  }
+  
+  /* -------- Beverages ---------- */
+  .beverages {
+    float: none;
+  }
+  
+  /* --------- Cuisine ----------- */
+  .cuisine {
+    float: none;
+  }
+  
+}
+/* < 870px */
+@media screen and (max-width: 870px) {
+  h1 {
+    background: url(images/logo_l.png) no-repeat;
+    height: 150px;
+    margin: 0 auto;
+    width: 400px;
+  }
+  .location {
+    background-color: #26343e;
+    float: none;
+    min-height: 85px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+  }  
+}
+
+/* Portrait */
+@media screen and (orientation: portrait) {
+  /* Portrait Styles */
+}
+
+/* Landscape */
+@media screen and (orientation: landscape) {
+  /* Landscape Styles */
+}
