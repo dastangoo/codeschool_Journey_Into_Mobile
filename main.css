@@ -1,0 +1,38 @@
+h1 {
+  background: url(images/logo.png) no-repeat;
+  height: 84px;
+  text-indent: -9999em;
+  width: 308px;
+}
+header {
+  border-bottom: 15px solid #26343e;
+  padding: 25px 0;
+}
+.logo {
+  float: left;
+}
+.location {
+  float: right;
+}
+.addy {
+  float: left;
+}
+.mappy {
+  float: right;
+  text-align: center;
+  width: 270px;
+}
+.box {
+  min-height: 425px;
+  width: 41.666667%; /* 400px/960px */
+}
+
+/* ------- Beverages ------------ */
+.beverages {
+  float: left;
+}
+
+/* ------- Cuisine -------------- */
+.cuisine {
+  float: right;
+}

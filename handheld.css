@@ -1,0 +1,56 @@
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    background: url(images/logo_s.png) no-repeat;
+    height: 80px;
+    margin: 0 auto;
+    text-indent: -9999em;
+    width: 295px;
+  }
+  header {
+    border-bottom: none;
+    padding: 0;
+  }
+  .logo {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .location {
+    background-color: #26343e;
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .addy {
+    float: none;
+  }
+  .mappy {
+    float: none;
+    width: 100%;
+  }
+  .box {
+    margin: 20px auto;
+    min-height: 0;
+    width: inherit;
+  }
+
+  /* ------- Beverages ------------ */
+  .beverages {
+    float: none;
+  }
+
+  /* ------- Cuisine -------------- */
+  .cuisine {
+    float: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 100%;
+  }
+}
